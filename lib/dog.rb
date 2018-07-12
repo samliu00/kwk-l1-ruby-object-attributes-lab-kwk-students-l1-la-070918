@@ -1,10 +1,9 @@
 # dog.rb
 
 class Dog  
-  def name = (dog_name)
-    @name = dog_name
+  def initialize(name, breed)
+    @name = name
+    @breed = breed
   end
-  def dog_name
-    @name 
-  end 
-end 
+  def name
+    @name = "fields_for"
