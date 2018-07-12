@@ -6,4 +6,14 @@ class Dog
     @breed = breed
   end
   def name
-    @name = "fields_for"
+    @name = "Fido"
+  end
+  def name=(new_name)
+    @name = new_name 
+  end
+  
+  def breed
+    @breed = "Beagle"
+  end 
+  def breed = (new_breed)
+    @breed = new_breed 
